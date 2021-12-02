@@ -21,6 +21,9 @@ ol {
 p {
   padding: 0;
 }
+.body-portfolio {
+  height: 1800px;
+}
 .menu {
   position: absolute;
   width: 1600px;
@@ -79,16 +82,49 @@ p {
   cursor: pointer;
   text-decoration: none;
   padding-left: 50px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-menu:hover {
+  color: #2196f3;
 }
 .header-tel {
   cursor: pointer;
   text-decoration: none;
   padding-left: 400px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-tel:hover {
+  color: #2196f3;
 }
 .header-mail {
   cursor: pointer;
   text-decoration: none;
   padding-left: 25px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-mail:hover {
+  color: #2196f3;
 }
 .main {
   position: absolute;
@@ -226,20 +262,35 @@ p {
 .footer {
   position: absolute;
   width: 1600px;
-  height: 152px;
-  left: 0px;
+  height: 180px;
   top: 2197px;
   background-color: #2f303a;
 }
 .footer-portfolio {
   position: absolute;
   width: 1600px;
-  height: 152px;
-  left: 0px;
+  height: 180px;
   top: 1600px;
   background-color: #2f303a;
 }
+.footer-logo {
+  padding-left: 150px;
+  padding-top: 25px;
+}
+.footer-tel,
+.footer-mail {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
 .adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  padding-left: 150px;
   color: #ffffff;
 }
 .filters {
