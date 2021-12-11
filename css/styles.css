@@ -131,16 +131,13 @@ p {
 .main {
   position: absolute;
   width: 1600px;
-  height: 600px;
-  top: 80px;
-  background-color: #2f303a;
+  height: 2000px;
+  padding-top: 80px;
 }
 .main-order-title {
   position: absolute;
   width: 696px;
-  height: 120px;
-  left: 402px;
-  top: 230px;
+  height: 300px;
 
   font-family: Roboto;
   font-style: normal;
@@ -158,8 +155,6 @@ p {
   position: absolute;
   width: 200px;
   height: 50px;
-  left: 640px;
-  top: 380px;
   cursor: pointer;
 
   background: #2196f3;
@@ -377,6 +372,13 @@ p {
 .container {
   width: 1600px;
   padding: 0 15px;
+}
+.div-order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background-color: #2f303a;
 }
 .section {
   padding-top: 94px;
