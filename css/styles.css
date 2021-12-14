@@ -136,8 +136,8 @@ p {
 }
 .main-order-title {
   position: absolute;
+  margin-top: 180px;
   width: 696px;
-  height: 300px;
 
   font-family: Roboto;
   font-style: normal;
@@ -153,6 +153,7 @@ p {
 }
 .main-order-button {
   position: absolute;
+  margin-top: 320px;
   width: 200px;
   height: 50px;
   cursor: pointer;
@@ -373,14 +374,25 @@ p {
   width: 1600px;
   padding: 0 15px;
 }
-.div-order {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 600px;
-  background-color: #2f303a;
-}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.main-order-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 600px;
+  background-color: #2f303a;
+}
+.stats-section {
+  height: 980px;
+  padding-top: 680px;
+}
+.jobs-section {
+  height: 500px;
+  padding-top: 25px;
+}
+.clients-section {
+  height: 400px;
 }
