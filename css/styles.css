@@ -175,17 +175,18 @@ p {
 }
 .stats {
   position: absolute;
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
-  display: inline;
+  width: 1600px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .stats-list {
   display: inline-block;
-  width: 270px;
+  width: 320px;
   height: 100px;
   list-style-type: none;
+  padding: 25px;
 }
 .stats-description {
   font-family: Roboto;
