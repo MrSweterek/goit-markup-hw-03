@@ -187,6 +187,26 @@ p {
   height: 100px;
   list-style-type: none;
 }
+.stats-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+h3 {
+  padding-top: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
 .jobs {
   position: absolute;
   width: 1170px;
