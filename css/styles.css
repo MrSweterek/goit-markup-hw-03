@@ -284,6 +284,8 @@ h3 {
 }
 .team-text-content {
   width: 300px;
+  font-weight: normal;
+  color: #757575;
 }
 .footer {
   position: absolute;
