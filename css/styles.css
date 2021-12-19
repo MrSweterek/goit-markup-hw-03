@@ -28,15 +28,14 @@ p {
 }
 .menu {
   position: absolute;
-  width: 1600px;
+  width: 100%;
   height: 80px;
   border-bottom: 1px solid #ececec;
 }
 .menu-nav {
   position: absolute;
-  width: 1400px;
+  width: 100%;
   height: 80px;
-  left: 150px;
 }
 .menu-list {
   display: flex;
@@ -129,10 +128,8 @@ p {
   color: #2196f3;
 }
 .main {
-  position: absolute;
-  width: 1600px;
-  height: 2000px;
-  top: 80px;
+  width: 100%;
+  padding-top: 80px;
 }
 .main-order-title {
   position: absolute;
@@ -175,7 +172,6 @@ p {
 }
 .stats {
   position: absolute;
-  width: 1600px;
   height: 300px;
   display: flex;
   align-items: center;
@@ -210,7 +206,6 @@ h3 {
 }
 .jobs {
   position: absolute;
-  width: 1600px;
   height: 386px;
   display: flex;
   align-items: center;
@@ -229,7 +224,6 @@ h3 {
 }
 .jobs-title {
   position: absolute;
-  width: 1600px;
   height: 100px;
   font-family: Roboto;
   font-style: normal;
@@ -243,14 +237,12 @@ h3 {
 .team {
   position: absolute;
   display: flex;
-  width: 1600px;
   height: 500px;
   padding-top: 150px;
   align-items: center;
   justify-content: center;
 }
 .team-section {
-  width: 1600px;
   height: 700px;
   background-color: #f5f4fa;
 }
@@ -274,7 +266,6 @@ h3 {
 }
 .team-title {
   position: absolute;
-  width: 1600px;
   height: 100px;
   padding-top: 50px;
   justify-content: center;
@@ -296,21 +287,20 @@ h3 {
 }
 .footer {
   position: absolute;
-  width: 1600px;
+  width: 100%;
   height: 180px;
   background-color: #2f303a;
   bottom: 0px;
 }
 .footer-portfolio {
   position: absolute;
-  width: 1600px;
+  width: 100%;
   height: 180px;
-  top: 1600px;
+  bottom: 0;
   background-color: #2f303a;
 }
 .footer-logo {
-  padding-left: 150px;
-  padding-top: 25px;
+  margin-top: 25px;
 }
 .footer-tel,
 .footer-mail {
@@ -325,62 +315,44 @@ h3 {
   line-height: 24px;
   letter-spacing: 0.03em;
 
-  padding-left: 150px;
   color: #ffffff;
 }
 .filters {
-  position: absolute;
-  width: 50%;
-  height: 54px;
-  left: 25%;
-  top: 174px;
+  display: flex;
+  justify-content: center;
   align-content: center;
 }
 .filter-object {
-  width: 16px;
-  height: 16px;
-  left: 609px;
-  top: 212px;
-  display: inline;
+  width: 121px;
+  height: 38px;
   list-style-type: none;
+  margin: 60px 4px 0 4px;
 }
 .filter-button {
   width: 121px;
   height: 38px;
-  left: 510px;
-  top: 174px;
-
   background-color: #f5f4fa;
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border: none;
 }
-.filter-button-active {
+.filter-button:hover {
   background-color: #2196f3;
   color: #f5f4fa;
+
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  width: 121px;
-  height: 38px;
 }
 .projects {
-  position: absolute;
   list-style-type: none;
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 85%;
   height: 404px;
-  left: 150px;
-  top: 262px;
 }
 .project-object {
   width: 370px;
   margin: 15px;
   height: 404px;
-  left: 150px;
-  top: 262px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -391,6 +363,7 @@ h3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
+  padding: 24px 24px 0 24px;
 
   letter-spacing: 0.06em;
 
@@ -402,23 +375,27 @@ h3 {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-
+  padding: 0 24px 0 24px;
   letter-spacing: 0.03em;
+  margin: 4px 0 0 0;
 
   color: #757575;
 }
 .container {
-  width: 1600px;
+  width: 1200px;
   padding: 0 15px;
+  margin: 0 auto;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .main-order-section {
-  display: flex;
-  justify-content: center;
-  align-content: center;
   height: 600px;
   background-color: #2f303a;
 }
