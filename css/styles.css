@@ -93,7 +93,7 @@ p {
 .header-tel {
   cursor: pointer;
   text-decoration: none;
-  padding-left: 400px;
+  margin-left: 25em;
 
   font-family: Roboto;
   font-style: normal;
@@ -101,7 +101,7 @@ p {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #757575;
 }
 .header-tel:hover {
   color: #2196f3;
@@ -117,7 +117,7 @@ p {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #757575;
 }
 .header-mail:hover {
   color: #2196f3;
@@ -140,7 +140,6 @@ p {
   color: #ffffff;
 }
 .main-order-button {
-  margin-top: 320px;
   width: 200px;
   height: 50px;
   cursor: pointer;
@@ -198,7 +197,6 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 50px;
 }
 .jobs-list {
   display: inline;
@@ -224,7 +222,6 @@ h3 {
 .team {
   display: flex;
   height: 500px;
-  padding-top: 150px;
   align-items: center;
   justify-content: center;
 }
@@ -284,7 +281,7 @@ h3 {
   background-color: #2f303a;
 }
 .footer-logo {
-  margin-top: 25px;
+  padding-top: 25px;
 }
 .footer-tel,
 .footer-mail {
@@ -373,7 +370,9 @@ h3 {
 .center {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
 }
 .section {
   padding-top: 94px;
